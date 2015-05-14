@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27A3CA341B04E97000F12324 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A3CA331B04E97000F12324 /* main.cpp */; };
+		27A3CA481B04EB9A00F12324 /* Agente.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A3CA431B04EB9A00F12324 /* Agente.cpp */; };
+		27A3CA491B04EB9A00F12324 /* AgentStates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A3CA451B04EB9A00F12324 /* AgentStates.cpp */; };
+		27A3CA4B1B04EBDC00F12324 /* ejemploFSM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27A3CA4A1B04EBDC00F12324 /* ejemploFSM.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,12 @@
 
 /* Begin PBXFileReference section */
 		27A3CA301B04E97000F12324 /* prueba */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prueba; sourceTree = BUILT_PRODUCTS_DIR; };
-		27A3CA331B04E97000F12324 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		27A3CA431B04EB9A00F12324 /* Agente.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Agente.cpp; sourceTree = SOURCE_ROOT; };
+		27A3CA441B04EB9A00F12324 /* Agente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Agente.h; sourceTree = SOURCE_ROOT; };
+		27A3CA451B04EB9A00F12324 /* AgentStates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AgentStates.cpp; sourceTree = SOURCE_ROOT; };
+		27A3CA461B04EB9A00F12324 /* AgentStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgentStates.h; sourceTree = SOURCE_ROOT; };
+		27A3CA471B04EB9A00F12324 /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = State.h; sourceTree = SOURCE_ROOT; };
+		27A3CA4A1B04EBDC00F12324 /* ejemploFSM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ejemploFSM.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		27A3CA321B04E97000F12324 /* prueba */ = {
 			isa = PBXGroup;
 			children = (
-				27A3CA331B04E97000F12324 /* main.cpp */,
+				27A3CA4A1B04EBDC00F12324 /* ejemploFSM.cpp */,
+				27A3CA431B04EB9A00F12324 /* Agente.cpp */,
+				27A3CA441B04EB9A00F12324 /* Agente.h */,
+				27A3CA451B04EB9A00F12324 /* AgentStates.cpp */,
+				27A3CA461B04EB9A00F12324 /* AgentStates.h */,
+				27A3CA471B04EB9A00F12324 /* State.h */,
 			);
 			path = prueba;
 			sourceTree = "<group>";
@@ -118,7 +130,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27A3CA341B04E97000F12324 /* main.cpp in Sources */,
+				27A3CA4B1B04EBDC00F12324 /* ejemploFSM.cpp in Sources */,
+				27A3CA481B04EB9A00F12324 /* Agente.cpp in Sources */,
+				27A3CA491B04EB9A00F12324 /* AgentStates.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
